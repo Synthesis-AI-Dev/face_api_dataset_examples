@@ -42,11 +42,11 @@ then
   git clone https://github.com/Synthesis-AI-Dev/face_api_dataset_examples.git --depth 1
   if [ $DIR1_EXISTS -ne 0 ]
   then
-    cp -r test_dataset $CDIR/test_dataset
+    cp -r "face_api_dataset_examples/test_dataset" $CDIR/test_dataset
   fi
   if [ $DIR1_EXISTS -ne 0 ]
   then
-    cp -r test_dataset_2 $CDIR/test_dataset_2
+    cp -r "face_api_dataset_examples/test_dataset_2" $CDIR/test_dataset_2
   fi
   cd $CDIR
   rm -r $TMPDIR
