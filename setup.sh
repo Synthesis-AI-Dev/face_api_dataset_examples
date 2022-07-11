@@ -39,7 +39,7 @@ then
   CDIR=$(pwd)
   TMPDIR=$(mktemp -d)
   cd $TMPDIR
-  git clone https://github.com/Synthesis-AI-Dev/face_api_dataset_examples.git --depth 0
+  git clone https://github.com/Synthesis-AI-Dev/face_api_dataset_examples.git --depth 1
   if [ $DIR1_EXISTS -ne 0 ]
   then
     cp -r test_dataset $CDIR/test_dataset
