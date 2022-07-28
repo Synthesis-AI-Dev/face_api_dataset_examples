@@ -1,0 +1,160 @@
+{
+  "humans": [
+    {
+      "identities": {
+        "ids": [
+          1
+        ],
+        "renders_per_identity": 1
+      },
+      "environment": {
+        "hdri": {
+          "name": [
+            "reading_room"
+          ],
+          "intensity": {
+            "type": "list",
+            "values": [
+              1
+            ]
+          },
+          "rotation": {
+            "type": "list",
+            "values": [
+              0
+            ]
+          }
+        }
+      },
+      "camera_and_light_rigs": [
+        {
+          "type": "head_orbit",
+          "location": {
+            "x": {
+              "type": "list",
+              "values": [
+                -0.35
+              ]
+            },
+            "y": {
+              "type": "list",
+              "values": [
+                0.05
+              ]
+            },
+            "z": {
+              "type": "list",
+              "values": [
+                0.8
+              ]
+            }
+          },
+          "cameras": [
+            {
+              "name": "cam1",
+              "specifications": {
+                "resolution_h": 800,
+                "resolution_w": 1280,
+                "focal_length": {
+                  "type": "list",
+                  "values": [
+                    19
+                  ]
+                }
+              },
+              "relative_location": {
+                "pitch": {
+                  "type": "list",
+                  "values": [
+                    20
+                  ]
+                },
+                "yaw": {
+                  "type": "list",
+                  "values": [
+                    15
+                  ]
+                },
+                "roll": {
+                  "type": "list",
+                  "values": [
+                    90
+                  ]
+                },
+                "x": {
+                  "type": "list",
+                  "values": [
+                    0.7
+                  ]
+                },
+                "y": {
+                  "type": "list",
+                  "values": [
+                    -0.05
+                  ]
+                },
+                "z": {
+                  "type": "list",
+                  "values": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "name": "cam2",
+              "specifications": {
+                "resolution_h": 800,
+                "resolution_w": 1280,
+                "focal_length": {
+                  "type": "list",
+                  "values": [
+                    19
+                  ]
+                }
+              },
+              "relative_location": {
+                "pitch": {
+                  "type": "list",
+                  "values": [
+                    -20
+                  ]
+                },
+                "yaw": {
+                  "type": "list",
+                  "values": [
+                    15
+                  ]
+                },
+                "roll": {
+                  "type": "list",
+                  "values": [
+                    90
+                  ]
+                },
+                "x": {
+                  "type": "list",
+                  "values": [
+                    -0.05
+                  ]
+                },
+                "y": {
+                  "type": "list",
+                  "values": [
+                    -0.05
+                  ]
+                },
+                "z": {
+                  "type": "list",
+                  "values": [
+                    0
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
