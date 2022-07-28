@@ -1,7 +1,7 @@
 git+https://github.com/Synthesis-AI-Dev/face_api_dataset.git@058ebef3
 numpy>=1.21.6
 opencv-python==4.6.0.66
-matplotlib==3.5.2
+matplotlib==3.2.2
 tiffile==2018.10.18
 imagecodecs==2021.11.20
 plotly==5.9.0
