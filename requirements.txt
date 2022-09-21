@@ -1,4 +1,4 @@
-git+https://github.com/Synthesis-AI-Dev/face_api_dataset.git@058ebef3
+git+https://github.com/Synthesis-AI-Dev/face_api_dataset.git@ae3134a4
 numpy>=1.21.6
 opencv-python==4.6.0.66
 matplotlib==3.2.2
